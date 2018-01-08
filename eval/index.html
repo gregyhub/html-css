@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="css/font-awesome.min.css" />
+	<link rel="stylesheet" href="css/styles.css" />
+	<link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+	<title>My Unicorn</title>
+</head>
+<body>
+	<header class="row">
+		<p class="floatl">MyUnicorn</p>
+		<nav class="floatr">
+			<ul class="row">
+			<!-- j'ajoute la class=row au ul pour "clear" les float des li -->
+				<li><a class="active" href="#principe">Le principe</a></li>
+				<li><a href="#licornes">Nos licornes</a></li>
+				<li><a href="#trouver">Nous trouver</a></li>
+			</ul>
+		</nav>
+	</header>
+	<div class="container">
+		<div class="arcenciel">
+			<h1>Un jour, une licorne</h1>
+		</div>
+		<main>
+			<!-- DEBUT DE PRINCIPE -->
+			<div id="principe"></div>
+			<h2>Le principe</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In dictum dapibus ante, eu aliquam ante euismod eleifend. Ut malesuada augue ut luctus pellentesque. Aenean id varius ipsum. Nunc malesuada ex ut ipsum interdum vestibulum. Integer facilisis finibus orci, sit amet pretium diam placerat vitae. Nunc auctor tincidunt mollis. Nullam quis turpis sed lorem elementum semper eget semper risus. In nec mauris aliquam, congue metus euismod, cursus leo. Vivamus laoreet commodo leo, ut cursus justo blandit in. Aenean pretium mi a auctor pulvinar. Mauris sodales sollicitudin sodales. Sed mollis sed lectus id facilisis. Quisque pharetra a purus eget porttitor. Proin rhoncus risus non mauris iaculis sodales. Pellentesque euismod dui erat, non sodales ipsum sollicitudin sed.</p>
+
+			<p>Donec nisi eros, luctus id pretium eget, consequat elementum risus. Fusce eleifend lacinia orci eu iaculis. Vestibulum vestibulum justo quis commodo congue. Aliquam purus leo, dictum in nisl at, pellentesque bibendum mi. Nulla convallis mi eget nisl convallis dictum. Vestibulum a massa lacus. Aenean quis enim diam.</p>
+			<!-- FIN DE PRINCIPE -->
+			
+			<!-- DEBUT NOS LICORNES -->
+			<div id="licornes"></div>
+			<h2>Nos Licornes</h2>
+			<div class="row">
+				<figure class="floatl">
+					<img alt="Lulu Confetty" title="Lulu Confetty" src="img/unicorns/photo1.jpg" />
+					<figcaption>
+						<span>Lulu Confetty</span>
+					</figcaption>
+				</figure>
+				<figure class="floatl">
+					<img alt="Lapillon Magik" title="Lapillon Magik" src="img/unicorns/photo2.jpg" />
+					<figcaption>
+						<span>Lapillon Magik</span>
+					</figcaption>
+				</figure>
+				<figure class="floatl">
+					<img alt="El Ninjacorn" title="El Ninjacorn" src="img/unicorns/photo3.jpg" />
+					<figcaption>
+						<span>El Ninjacorn</span>
+					</figcaption>
+				</figure>
+				<figure class="floatl">
+					<img alt="Sweety Candy" title="Sweety Candy" src="img/unicorns/photo4.jpg" />
+					<figcaption>
+						<span>Sweety Candy</span>
+					</figcaption>
+				</figure>
+			</div>
+			<!-- FIN NOS LICORNES -->
+			
+			<!-- DEBUT NOUS TROUVER -->
+			<div id="trouver"></div>
+			<h2>Nous trouver</h2>
+			<div class="row">
+				<iframe class="floatl" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2625.1874680087617!2d2.3541141156742174!3d48.8546354792871!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e671fd10fa77a9%3A0xb2bbd365849898f2!2sWebforce3!5e0!3m2!1sfr!2sfr!4v1513849251036"></iframe>
+				
+				<div class="contact floatl">
+					<h3>Notre élevage de licornes est situé au :</h3>
+					<p>18 rue Geoffroy l'Asnie <br />
+					75004 Paris <br />
+					01.23.45.67.89</p>
+					
+					<h3>Newsletter</h3>
+					<form action="newsletter.php" method="post" >
+						<label for="mail">Abonnez-vous simplement à notre newsletter mensuelle !</label>
+						<input type="email" name="mail" id="mail" required placeholder="votre@email.fr" />
+						
+						<input type="submit" name="valider" value="Valider" />
+					</form>
+				</div>
+			</div>
+			<!-- FIN NOUS TROUVER -->
+		</main>
+	</div>
+	<footer>
+		<p>2016 &copy; WebForce3</p>
+	</footer>
+	
+</body>
+</html>

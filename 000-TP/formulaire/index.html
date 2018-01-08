@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="style.css" />
+	<title>exo formulaire</title>
+</head>
+<body>
+	<form action="valider.php" method="get">
+		<fieldset>
+			<legend>Formulaire</legend>
+			<label for="user">Nom d'utilisateur*</label>
+			<input type="text" name="user" id="user" placeholder="votre nom" required title="ne pas oublier le pseudo"/>
+			<label for="pass">Mot de passe*</label>
+			<input type="password" name="pass" id="pass" required />
+			
+			
+			<label for="connect">Rester connecter</label>
+			<input type="checkbox" id="connect" name="connect" value="connect">
+		
+
+			
+			<input type="submit" name="valider" value="valider" />
+			<input type="reset" name="reset" value="annuler" />
+		</fieldset>
+	</form>
+</body>
+</html>

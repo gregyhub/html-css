@@ -1,0 +1,61 @@
+.liste{ 
+	/* padding :0; */
+	/* list-style-type: none; /*circle square none*/ 
+	/* list-style-image: url(fleche.gif); */
+	/* list-style-position:outside; /* inside ou outside */  
+	list-style:   url(fleche.gif) none outside ;
+}
+
+
+
+ul.imbrique ul{
+	
+	float: left;
+	list-style-type:none;
+}
+
+.horizon li{
+	float:left;
+	list-style-type:none;
+	/* margin-right:5px; */
+	padding:2px;
+	background-color:grey;
+	transition:0.5s;
+}
+.horizon li:hover{
+	background-color:pink;
+	color:red;
+}
+
+.test{
+	display: none;
+}
+ul>li.sousmenu:hover{
+	display:visible;
+}
+
+
+
+#topPage{
+	width:50px;
+	height:50px;
+	background-color:dodgerblue;
+	position:fixed;
+	bottom: 50px;
+	right: 50px;
+	padding:5px;
+	opacity: 0.5;
+	transition:0.5s;
+}
+#topPage:hover{
+	opacity:1;
+}
+span span{
+	opacity: 0;
+	transition:0.5s;
+	
+}
+
+span:hover span{
+	opacity:1;
+}

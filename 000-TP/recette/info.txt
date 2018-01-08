@@ -1,0 +1,70 @@
+Titre principal :
+Boeuf bourguignon
+
+Titre secondaire :
+Recette facile et économique.
+
+paragraphe :
+Le bœuf bourguignon est une recette de cuisine d'estouffade de bœuf, traditionnelle de la cuisine bourguignonne, cuisinée au vin rouge de Bourgogne, avec une garniture de champignons et de petits oignons.
+
+Les variations d'accompagnement sont multiples avec, par exemple, des pommes de terre, carottes, haricots verts, pâtes…	
+
+image :
+https://images.marmitoncdn.org/recipephotos/multiphoto/40/4000ed03-4558-49c7-8aea-b54dca04e41a_normal.jpg
+alternative: Le fameux boeuf bourguignon
+
+titres de niveau inferieur:
+Temps de préparation 60 minutes
+Temps de cuisson 300 minutes
+titres de niveau encore inferieur:
+Ingrédients (pour 4 personnes)
+Préparation de la recette :
+
+liste1 :
+- 600 à 800 g de pièce à fondue
+- 4 ou 5 oignons
+- 4 ou 5 carottes
+- 1 bouquet garni
+- 1 bouteille de vin rouge assez bon
+- 100 g de beurre
+- sel
+- poivre
+
+liste2 :
+Détailler la viande en cubes de 3 cm de côté, enlever les gros morceaux de gras.
+Couper l'oignon en morceaux. Le faire revenir dans une poêle au beurre. Une fois transparent, le verser dans une cocotte en fonte de préférence.
+Procéder de même avec la viande mais en plusieurs fois, jusqu'à ce que tous les morceaux soient cuits. Les ajouter au fur et à mesure dans la cocotte. Ne pas avoir peur d'ajouter du beurre entre chaque fournée. 
+Quand toute la viande est dans la cocotte, déglacer la poêle avec de l'eau ou du vin et faire bouillir en raclant pour récupérer le suc. Saler, poivrer, ajouter au reste. 
+Recouvrir le tout avec une partie du vin et faire mijoter quelques heures avec le bouquet garni et les carottes en rondelles.
+Le lendemain, faire mijoter au moins 2 heures en plusieurs fois, ajouter du vin ou de l'eau si nécessaire.
+
+Polices
+Arial
+Lobster
+
+Icones Font awesome
+<i class="fa fa-clock-o" aria-hidden="true"></i>
+<i class="fa fa-thermometer-full" aria-hidden="true"></i>
+<i class="fa fa-check-square" aria-hidden="true"></i>
+
+
+Footer
+Retrouvez toutes nos recettes sur marmiton.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

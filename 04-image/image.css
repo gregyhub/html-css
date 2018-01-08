@@ -1,0 +1,10 @@
+[title="super brdge"]{
+	width: 100px;
+	/* transition:0.5s; */
+}
+
+[title="super brdge"]:hover{
+	width:150px;
+	transition:1s;
+	/*transform: scale(5); /* mise à l'echelle */
+}

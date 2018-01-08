@@ -1,0 +1,21 @@
+body{
+	/* background-image: url(images/fond1.jpg); */
+	/* background-size: 100%;  */
+	/*si une seule valeur, c'est la largeur et il adapte la hauteur */
+	/* background-repeat:no-repeat; */
+	/* no-repeat / repeat-x ou Y*/
+	/* background-position:  center ; */
+	/* background-color: #333333; */
+	height:500px; 
+	
+	background: #333333 url(images/fond1.jpg) no-repeat;
+}
+div{
+}
+.contenu{
+	background-color:rgba(255,255,255,0.3);
+	width:800px;
+	height:500px;
+	margin:100px auto;
+	padding:50px;
+}

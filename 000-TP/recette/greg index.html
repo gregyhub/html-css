@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="css/stylemarmiton.css" />
+	<link rel="stylesheet" href="css/font-awesome.css" />
+	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+	
+	<title>recette marmiton</title>
+</head>
+<body>
+	<div id="container">
+	<button>
+		cliquez ICI
+	</button>
+		<div class="entete row">
+			<header class="floatl">
+				<h1>Boeuf Bourguignon</h1>
+			</header>
+			<nav  class="floatr">
+				<a href="">Wiki</a>
+				<a href="">Marmiton</a>
+			</nav>
+		</div>
+		<div class="row">
+			<main class="floatl row">
+				<h2>Recette facile et économique.</h2>
+				<p>Le bœuf bourguignon est une recette de cuisine d'<strong>estouffade de bœuf</strong>, traditionnelle de la cuisine bourguignonne, cuisinée au vin rouge de <em>Bourgogne</em>, avec une garniture de champignons et de petits oignons.
+				</p>
+				<p>
+				Les variations d'accompagnement sont multiples avec, par exemple, des pommes de terre, carottes, haricots verts, pâtes…	
+				</p>
+				<img class="floatl" title="Le fameux boeuf bourguignon" alt="Le fameux boeuf bourguignon" src="https://images.marmitoncdn.org/recipephotos/multiphoto/40/4000ed03-4558-49c7-8aea-b54dca04e41a_normal.jpg" />
+				<i class="fa fa-clock-o fa-2x floatl" aria-hidden="true"></i><h4>Temps de préparation <span>60 minutes</span></h4>
+				<i class="fa fa-thermometer-full fa-2x floatl" aria-hidden="true"></i><h4>Temps de cuisson <span>300 minutes</span></h4>
+				<h3>Préparation</h3>
+				<ol type="1">
+					<li>Détailler la viande en cubes de 3 cm de côté, enlever les gros morceaux de gras.</li>
+					<li>Couper l'oignon en morceaux. Le faire revenir dans une poêle au beurre. Une fois transparent, le verser dans une cocotte en fonte de préférence.</li>
+					<li>Procéder de même avec la viande mais en plusieurs fois, jusqu'à ce que tous les morceaux soient cuits. Les ajouter au fur et à mesure dans la cocotte. Ne pas avoir peur d'ajouter du beurre entre chaque fournée. Quand toute la viande est dans la cocotte, déglacer la poêle avec de l'eau ou du vin et faire bouillir en raclant pour récupérer le suc. Saler, poivrer, ajouter au reste. </li>
+					<li>Recouvrir le tout avec une partie du vin et faire mijoter quelques heures avec le bouquet garni et les carottes en rondelles.</li>
+					<li>Le lendemain, faire mijoter au moins 2 heures en plusieurs fois, ajouter du vin ou de l'eau si nécessaire.</li>
+				</ol>
+			</main>
+			<aside class="floatl">
+				<h3>Ingrédients</h3>
+				<ul>
+					<li class="row">
+						<div class="floatl"><i class="fa fa-check-square" aria-hidden="true"></i></div><div class="floatl">600 à 800 g de pièce à fondue</div>
+					</li>
+					<li class="row">
+						<div class="floatl"><i class="fa fa-check-square" aria-hidden="true"></i></div><div class="floatl">4 ou 5 oignons</div>
+					</li>
+					<li class="row">
+						<div class="floatl"><i class="fa fa-check-square" aria-hidden="true"></i></div><div class="floatl">4 ou 5 carottes</div>
+					</li>
+					<li class="row">
+						<div class="floatl"><i class="fa fa-check-square" aria-hidden="true"></i></div><div class="floatl">1 bouquet garni</div>
+					</li>
+					<li class="row">
+						<div class="floatl"><i class="fa fa-check-square" aria-hidden="true"></i></div><div class="floatl">1 bouteille de vin rouge assez bon</div>
+					</li>
+					<li class="row">
+						<div class="floatl"><i class="fa fa-check-square" aria-hidden="true"></i></div><div class="floatl">100 g de beurre</div>
+					</li>
+					<li class="row">
+						<div class="floatl"><i class="fa fa-check-square" aria-hidden="true"></i></div><div class="floatl">sel</div>
+					</li>
+					<li class="row">
+						<div class="floatl"><i class="fa fa-check-square" aria-hidden="true"></i></div><div class="floatl">poivre</div>
+					</li>
+				</ul>
+			</aside>
+		</div>
+		<footer>
+			<p>Retrouvez toutes nos recettes sur <a href="http://www.marmiton.com">marmiton.com</a></p>
+		</footer>
+	</div>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script>
+		$( "button" ).click(function() {
+			if ($("#container").hasClass("calque")){
+				$("#container").removeClass("calque");
+			}else{
+				$("#container").addClass("calque");
+			}
+		});
+	</script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+/*
+body{}
+cette structure s'appele un ensemble de règles. Généralement on appelle ça une "règle".
+Ici Body est le selecteur. Le sélecteur permet de definir les éléments sur lesquels appliquer les styles souhaités.
+Entre accolades nous avons les déclarations.
+Chaque déclaration est séparée de la suivante par ";".
+Une déclaration comporte une propriété (par exemple background-color) et une valeur de propriété (par exemple lightgrey pour le background-color).
+Chaque propoété est séparée de sa valeur par ":".
+
+*/
+
+
+body{
+	background-color: lightgrey;
+	font-family: arial;
+	font-size: 18px;
+	color: #FFFFFF;
+}
+
+header{
+	background-color: rgba(0,0,0,0.3); /* le a permet de gérer l'opacité avec une 4eme valeur l'opacité de 0 à 1 (avec un . pour la virgule)*/
+	height: 100px;
+}
+
+nav{
+	background-color: #696969;
+	height: 30px;
+}
+
+main{
+	background-color: 	#FFE4E1;
+	height: 500px;
+	color: rgb(139, 0, 0);
+	opacity: 0.3;
+}
+
+
+footer{
+	background-color: 	#7B68EE;
+	height: 100px;
+}

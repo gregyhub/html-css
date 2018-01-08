@@ -1,0 +1,34 @@
+#conteneur{
+	height: 550px;
+	border:1px solid red;
+}
+
+#flex{
+	height: 100%;
+	display: flex;
+	/*pour définir le sens horizontal ou vertical des item flex le principal et l'autre est induit par défaut*/
+	flex-direction: column; /*une ligne = sens horizontal || column = vertical || row-reverse || column-reverse*/
+	justify-content: space-around; /*choisir l'alignement dans le sens principal*/ /*flex-start est la valeur par défaut de gauche à droit par rapport au bloc flex*/ /*idem avec flex-end*/ /*center*/ /*space-between*/ /*space-around*/
+	
+	align-items: center;/*choisir l'alignement dans le sens secondaire*//*flex-start est la valeur par défaut de gauche à droit par rapport au bloc flex*/ /*idem avec flex-end*/ /*center*/
+}
+
+.item1, .item2, .item3{
+	height:100px;
+	width:300px;
+}
+
+.item1{
+	background-color: green;
+	order:3;
+	align-self:flex-start;
+}
+.item2{
+	background-color: orange;
+	order:2;
+	align-self:flex-end;
+}
+.item3{
+	background-color: red;
+	order:1;
+}

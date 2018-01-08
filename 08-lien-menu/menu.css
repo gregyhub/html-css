@@ -1,0 +1,25 @@
+nav a{
+	text-decoration:none;
+	color:f0f;
+	display:bloc;
+	width:150px;
+	float:left;
+	background-color:grey;
+	text-align:center;
+	padding:5px;
+}
+nav a:hover{
+	background-color: #F43C80;
+}
+
+
+div{
+	display:inline;
+	transition:1s;
+}
+div a{
+	clear:left;
+}
+a:hover div{
+	display:block;
+}

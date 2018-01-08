@@ -1,0 +1,12 @@
+#conteneur{
+	background-color:cyan;
+	width:960px;
+	margin:auto;
+}
+
+.zoneA, .zoneB{
+	display:inline-block;
+	width:450px;
+	height:150px;
+	border: 1px dotted red;
+}

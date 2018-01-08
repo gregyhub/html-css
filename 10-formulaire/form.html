@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="styles.css" />
+	<title>
+		Titre du site | la page
+	</title>
+</head>
+<body>
+
+	<form method="post" action="#" enctype="multipart/form-data">
+		
+		<label for="prenom">prenom</label>
+		<input id="prenom" name="prenom" type="text" />
+		
+		<input type="submit" name="envoyer" value="envoyer le formulaire" />
+		
+		
+		<label for="maville">Ma ville</label>
+		<input type="text" name="ville" id="maville" list="france" />
+		<datalist id="france">
+			<option>paris</option>
+			<option>lyon</option>
+			<option>marseille</option>
+		</datalist>
+		
+		<label for="moncp">Code Postal</label>
+		<input type="text" name="cp" id="moncp" pattern="[0-9]{5}" maxlength="5" title="cool" />
+		
+	</form>
+
+</body>
+</html>

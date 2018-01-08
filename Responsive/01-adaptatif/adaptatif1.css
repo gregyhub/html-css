@@ -1,0 +1,25 @@
+
+.zone-adaptative{
+	box-sizing: border-box;
+	background-color: orange;
+	color: #FFF;
+	padding:10px;
+	width:90%;
+	margin: auto;
+}
+@media(min-width:768px max-width:991px){
+	.zone-adaptative{
+		width:730px;
+	}
+}
+@media(min-width:992px){
+	.zone-adaptative{
+		width:970px;
+		color: red;
+	}
+}
+@media(min-width:1200px){
+	.zone-adaptative{
+		width:1170px;
+	}
+}

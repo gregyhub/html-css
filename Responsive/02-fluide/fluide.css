@@ -1,0 +1,59 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	font-size:1.2vw;
+}
+
+#conteneur{
+	width:80%;
+	margin:auto;
+	border: 1px solid black;
+}
+
+header{
+	height:15vh;
+	background-color: red;
+}
+nav{
+	height:5vh;
+	background-color: grey;
+}
+
+section{
+	height: 25vh;
+	float:left;
+	width:50%;
+}
+
+.a{
+	background-color:dodgerblue;
+}
+.b{
+	background-color:yellow;
+}
+.c{
+	background-color:orange;
+}
+.d{
+	background-color:green;
+}
+
+footer{
+	height:5vh;
+	background-color: grey;
+}
+.row{
+	background-color: #fff;
+	padding:2%;
+}
+.row:after{
+	content:'';
+	display:block;
+	clear:both;
+}
+
+
+/*==========================================================
+======RESPONSIVE DESIGN=====================================
+===========================================================*/

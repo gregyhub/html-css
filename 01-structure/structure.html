@@ -1,0 +1,67 @@
+<!--
+HTML est un langage à balise utilisé pour la création de contenu et la structuration sémantique des pages web.
+
+un élément, par exemple <header>, commence à la balise ouvrante <header> et se termine à la balise fermante </header>.
+
+Les balises indiquent la nature du contenu qu'elles encadrent. elles disens : "ceci est le titre de la page", "ceci est un header" ou encore "ceci est un paragraphe de texte".
+
+les balises ouvrantes peuvent contenir des informations additionnelles : les attributs.
+Certaines balises necessitent parfois un attribut pour fonctionner, et parfois ils sont optionnels.
+
+Les attributs consistent en 2 parties :
+-un nom d'attribut suivi de "="
+-une valeur d'attribut entre guillemets.
+
+-->
+
+
+
+<!-- Le doctype est la déclaration du type de document qui indique au navigateur dans quel type de html la page a été écrite.
+Cela indique aux anciens navigateurs de désactiver leur moteur de rendu pour éviter les erreurs en cas de balises inconnues.  -->
+<!doctype html>
+
+<!-- l'élément html encadre tout le contenu de la page, il est parfois appelé l'élément racine.  -->
+<html>
+	<!-- head contien des informations générales (métadonnées) sur le document. son titre, ses mots clé, sa déscription ou les liens vers les scriptes et feuilles css -->
+	<head>
+		<meta charset="utf-8" />
+		<meta name="description" content="la description de ma page qui parraitra dans le moteur de google" />
+		<meta name="keywords" content="motclé1, motclé2, motclé3" />
+		
+		<!-- link défini la relation entre le document courant et un document externe. classiquement une feuille de style ou un fichier js. 
+		href indique le chemin vers le fichier externe.-->
+		<link rel="stylesheet" type="text/css" href="structure.css" />
+		<title>The Titleéà</title>
+	</head>
+	<body>
+		<!-- L'élément HTML <header> représente un groupe de contenu introductif ou de contenu aidant à la navigation. Il peut contenir des éléments de titre, mais aussi d'autres éléments tels qu'un logo, un formulaire de recherche, etc.  -->
+		<header>
+			entete
+		</header>
+		<!-- L'élément HTML <nav> représente une section d'une page ayant des liens vers d'autres pages ou des fragments de cette page. Autrement dit, c'est une section destinée à la navigation dans un document (avec des menus, des tables des matières, des index, etc.). -->
+		<nav>
+			Menu
+		</nav>
+		<!-- L’élément HTML <main> représente le contenu principal du <body> du document ou de l'application. Il ne peut pas y avoir plusieurs éléments <main> au sein d'un même document. Le contenu principal de la zone est constitué de contenu directement en relation, ou qui étend le sujet principal du document ou de la fonctionnalité principale d'une application. -->
+		<main>
+			<!-- L'élément HTML <section> représente une section générique d'un document, par exemple un groupe de contenu thématique. Une section commence généralement avec un titre.
+			Ainsi, un menu de navigation devrait être délimité par un élément <nav> mais une liste de résultat de recherche, qui ne dispose pas d'élément spécifique pour être représentée, pourrait être englobée dans un élément <section>. -->
+			<section>
+				section 1
+			</section>
+			<section>
+				<!-- L'élément HTML <div> (qui signifie division du document) est un conteneur générique qui permet d'organiser le contenu sans représenter rien de particulier. Il peut être utilisé afin de grouper d'autres éléments pour leur appliquer un style (en utilisant les attributs class ou id) ou parce qu'ils partagent des attributs aux valeurs communes, tel que lang. Il doit uniquement être utilisé lorsqu'aucun autre élément sémantique (par exemple <article> ou <nav>) n'est approprié. -->
+				<div>
+					section 2
+				</div>
+				
+				<!-- L'élément HTML <span> est un conteneur générique en ligne (inline) pour les contenus phrasés. Il ne représente rien de particulier. Il peut être utilisé pour grouper des éléments afin de les mettre en forme (grâce aux attributs class ou id et aux règles CSS) ou parce qu'ils partagent certaines valeurs d'attribut comme lang. Il doit uniquement être utilisé lorsqu'aucun autre élément sémantique n'est approprié. <span> est très proche de l'élément <div>, mais l'élément <div> est un élément de bloc, alors que <span> est un élément en ligne. -->
+				<span>section 2</span>
+			</section>
+		</main>
+		<!-- L'élément HTML <footer> représente le pied de page de la section ou de la racine de sectionnement la plus proche. Un pied de page ou de section contient habituellement des informations sur l'auteur de la section, les données relatives au droit d'auteur (copyright) ou les liens vers d'autres documents en relation. -->
+		<footer>
+			mon pied de page
+		</footer>
+	</body>
+</html>

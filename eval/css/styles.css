@@ -1,0 +1,224 @@
+
+/*je commence par reset toutes les marges padding et décoration de text*/
+*{
+	margin:0;
+	padding:0;
+	text-decoration:none;
+	box-sizing:border-box;
+}
+
+body{
+	background:url(../img/background.png) #FFF repeat;
+	margin-top:70px;
+	font-family: Arial, sans-serif;
+}
+
+/*=============================
+====STRUCTURE DE PAGE==========
+=============================*/
+
+
+header{
+	width:100%;
+	height:70px;
+	line-height:70px;
+	background-color:#C55394;
+	position:fixed;
+	top:0;
+	z-index:1;
+}
+nav{
+	
+}
+
+.container{
+	width:1220px;
+	margin:100px auto 60px auto;
+}
+main{
+	background-color:#FFF;
+	padding:0 10px 50px 25px;
+	border-radius:10px;
+	box-shadow: 0px 0px 6px 1px rgba(0,0,0,0.5);
+}
+
+footer{
+	height:55px;
+	background-color:#E577B5;
+	color:#FFF;
+	text-align:right;
+	line-height:55px;
+	padding-right:5px;
+}
+
+
+/*=============================
+==== TITRES ===================
+=============================*/
+.arcenciel{
+	width:600px;
+	height:160px;
+	margin:0 auto;
+	background: url(../img/rainbow.png);
+}
+h1,h2,h3{
+	font-family: 'Courgette', cursive;
+}
+
+h1{
+	color:#C55394;
+	text-align:center;
+	padding:70px 0 0 0; 
+}
+
+h2{
+	padding-top:55px;
+	font-weight:normal;
+	margin-bottom:25px;
+	color:#EB43A3;
+}
+
+h2:before{
+	/*je place l'étoile de fontawesome devant mes titre h2 avec le content \f006*/
+    content: "\f006";
+    font-family: FontAwesome;
+	padding-right:10px;
+}
+
+h3{
+	font-size:15px;
+	font-style:normal;
+	margin-top:20px;
+	margin-bottom:10px;
+	color:#C55394;
+}
+
+/*=============================
+==== HEADER et NAV ============
+=============================*/
+header p{
+	font-family: 'Courgette', cursive;
+	color:#FFF;
+	margin-left:35px;
+	font-size:1.8em;
+}
+
+nav li{
+	list-style:none;
+	float:left;
+}
+nav a{
+	display:block;
+	height:70px;
+	padding:0 15px;
+	text-transform:uppercase;
+	font-size:14px;
+	color:#FFF
+}
+.active,nav a:hover{
+	background-color:#EB43A3;
+}
+
+#principe,#licornes,#trouver{
+	position:relative;
+	top:-20px;
+	
+}
+
+/*=============================
+==== MAIN / IMAGES============
+=============================*/
+
+main p{
+	margin:10px 0 10px 0;
+	font-size:14px;
+}
+
+
+
+figure{
+	width:275px;
+	height:275px;
+	margin-right:20px;
+	transition:0.5s;
+}
+
+/*pour enlever la marge, sinon la derniere figure passe dessous*/
+figure:last-child{
+	margin-right:0px;
+}
+figure img{
+	width:275px;
+	height:275px;
+	transition:0.5s;
+    border:0;
+}
+figure figcaption{
+	/*pour positionner la légend en bas de l'image*/
+	position:relative;
+	bottom:39px;
+	height: 35px;
+	line-height:35px;
+	text-align:center;
+	color:#FFF;
+	background-color:rgba(0,0,0,.8);
+}
+
+figure img:hover, figure:hover{
+	width:300px;
+	height:300px;
+	position:relative;
+}
+
+/*=============================
+==== MAP et CONTACT============
+=============================*/
+iframe{
+	width:685px;
+	height:450px;
+	border:0;
+}
+
+.contact{
+	width:380px;
+	height:330px;
+	font-size:12px;
+	margin-left:20px;
+}
+.contact p{
+	padding-bottom:10px;
+}
+
+form{
+	width:380px;
+}
+
+input,label{
+	display:block;
+	margin-bottom:10px;
+}
+
+input[type=email]{
+	padding:7px;
+	width:190px;
+}
+input[type=submit]{
+	background-color:#C55394;
+	color:#FFF;
+	border:0;
+	padding:10px 20px;
+	border-radius:5px;
+}
+
+
+/*=============================
+====FLOAT ET CLEAR=============
+=============================*/
+
+.floatl{float:left;}
+.floatr{float:right;}
+.row:after{
+	content:'';
+	display:block;
+	clear:both;} 
+/* pour clear les float sur la div parent*/

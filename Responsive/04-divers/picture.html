@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Picture</title>
+		<link rel="stylesheet" type="text/css" href="picture.css">
+	</head>
+
+	<body>
+		<!-- <img title="" src="http://placehold.it/300x150" alt="" /> -->
+		
+		<picture alt="test" title="bla">
+			<source srcset="http://placehold.it/800x150/" media="(min-width:800px)"/>
+			<source srcset="http://placehold.it/480x150/" media="(min-width:450px)"/>
+			<source srcset="http://placehold.it/300x150/" media="(min-width:100px)" />
+			<img src="http://placehold.it/480x150/" />
+		</picture>
+
+	</body>
+</html>

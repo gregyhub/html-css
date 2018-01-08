@@ -1,0 +1,19 @@
+body{margin:0;
+	border: 1px solid blue;
+	width:1020px;
+	/* height:400px; */
+	}
+
+
+.carre{
+	border:2px solid red;
+	width: 200px;
+	height:200px;
+	text-align:center;
+	line-height:200px;
+	float:left;
+
+}
+.clear{
+	clear:both;
+}

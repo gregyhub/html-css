@@ -1,0 +1,34 @@
+body{
+	background-color: white;
+	font-family: arial;
+	font-size: 18px;
+}
+
+div{
+	border: 2px solid;
+	width: 1000px;
+	margin: 10px auto;
+	/* margin: 50px 0px 0px 200px; haut droite bas gauche*/
+	/* margin-top: 50px; */
+	/* marge avec 2 valeur : haut-bas puis gauche-droite  */
+}
+
+header{
+	background-color: skyblue;
+	height: 100px;
+}
+
+nav{
+	background-color: red;
+	height: 30px;
+}
+
+main{
+	background-color: lightgrey;
+	height: 500px;
+}
+
+footer{
+	background-color: green;
+	height: 80px;
+}

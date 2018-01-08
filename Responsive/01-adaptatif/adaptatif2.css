@@ -1,0 +1,119 @@
+
+/* .zone-adaptative{ */
+	/* box-sizing: border-box; */
+	/* background-color: orange; */
+	/* color: #FFF; */
+	/* padding:10px; */
+	/* width:90%; */
+	/* margin: auto; */
+/* } */
+/* @media(min-width:768px max-width:991px){ */
+	/* .zone-adaptative{ */
+		/* width:730px; */
+	/* } */
+/* } */
+/* @media(min-width:992px){ */
+	/* .zone-adaptative{ */
+		/* width:970px; */
+		/* color: red; */
+	/* } */
+/* } */
+/* @media(min-width:1200px){ */
+	/* .zone-adaptative{ */
+		/* width:1170px; */
+	/* } */
+/* } */
+
+*{
+	box-sizing: border-box;
+}
+body{
+	font-size:1em;
+}
+
+#conteneur{
+	width:960px;
+	margin:auto;
+	border: 1px solid black;
+}
+
+header{
+	height:80px;
+	background-color: red;
+}
+nav{
+	height:30px;
+	background-color: grey;
+}
+
+section{
+	min-height: 250px;
+	float:left;
+	width:50%;
+}
+
+.a{
+	background-color:dodgerblue;
+}
+.b{
+	background-color:yellow;
+}
+.c{
+	background-color:orange;
+}
+.d{
+	background-color:green;
+}
+
+footer{
+	height:50px;
+	background-color: grey;
+}
+.row{
+	background-color: #fff;
+	padding:10px;
+}
+.row:after{
+	content:'';
+	display:block;
+	clear:both;
+}
+
+
+/*==========================================================
+======RESPONSIVE DESIGN=====================================
+===========================================================*/
+
+@media(max-width:1050px){
+	#conteneur{
+		width:750px;
+		font-size:1.2em;
+	}
+}
+@media(max-width:780px){
+	#conteneur{
+		width:550px;
+		font-size:1.4em;		
+	}
+	.a,.b{
+		width:100%;
+		height:125px;
+	}
+	.c{
+		width:70%;
+	}
+	.d{
+		width:30%;
+	}
+}
+@media(max-width:580px){
+	#conteneur{
+		width:100%;
+		font-size:1.6em;		
+	}
+	.a,.b,.c,.d{
+		width:100%;
+		height:125px;
+	}
+}
+

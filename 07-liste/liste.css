@@ -1,0 +1,48 @@
+.liste{ 
+	/* padding :0; */
+	/* list-style-type: none; /*circle square none*/ 
+	/* list-style-image: url(fleche.gif); */
+	/* list-style-position:outside; /* inside ou outside */  
+	list-style:   url(fleche.gif) none outside ;
+}
+
+
+
+ul.imbrique ul{
+	
+	float: left;
+	list-style-type:none;
+}
+
+.horizon li{
+	float:left;
+	list-style-type:none;
+	/* margin-right:5px; */
+	padding:2px;
+	background-color:grey;
+	transition:0.5s;
+}
+.horizon li:hover{
+	background-color:pink;
+	color:red;
+}
+
+.test{
+	/* display: none; */
+}
+.tata{
+	
+	width:200px;
+	heigth:20px;
+}
+.sousmenu ul{
+	width:200px;
+	heigth:20px;
+}
+li.sousmenu ul li.test:hover{
+	display:visible;
+}
+
+
+
+

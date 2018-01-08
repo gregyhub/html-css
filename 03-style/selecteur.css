@@ -1,0 +1,34 @@
+body{
+	background-color: #34552F;
+}
+
+p{ color: red; }
+
+p:first-child{ color: green; }
+p:last-child{ color: yellow; }
+
+
+p:nth-child(even){ color: gray; } /*even = paire */
+p:nth-child(odd){ color: black; } /*odd = impaire */
+
+
+p:nth-child(3){ color: orange; } 
+
+.zonea{ color: #F56F56;}
+.zonea:after{content:'test';}
+#zone_b{
+	background-color:dodgerblue;
+}
+#zone_b:after{
+	content:'x';
+}
+body div{
+	background-color:red;
+}
+div{
+	background-color:black;
+}
+
+p [title]{
+	background-color:black; }
+	/* fonctionne aussi en spécifiant la valeur de l'attribut par exemple p[title=titre]{}*/

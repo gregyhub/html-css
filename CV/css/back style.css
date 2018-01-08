@@ -1,0 +1,258 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	margin-top:135px;
+	/* background-color: #DADADA; */
+	font-size: 1em;
+	font-family: 'Signika', sans-serif;
+	color:#818080;
+	
+	background: rgba(174,174,174,1);
+background: -moz-linear-gradient(top, rgba(174,174,174,1) 0%, rgba(174,174,174,1) 13%, rgba(218,218,218,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(174,174,174,1)), color-stop(13%, rgba(174,174,174,1)), color-stop(100%, rgba(218,218,218,1)));
+background: -webkit-linear-gradient(top, rgba(174,174,174,1) 0%, rgba(174,174,174,1) 13%, rgba(218,218,218,1) 100%);
+background: -o-linear-gradient(top, rgba(174,174,174,1) 0%, rgba(174,174,174,1) 13%, rgba(218,218,218,1) 100%);
+background: -ms-linear-gradient(top, rgba(174,174,174,1) 0%, rgba(174,174,174,1) 13%, rgba(218,218,218,1) 100%);
+background: linear-gradient(to bottom, rgba(174,174,174,1) 0%, rgba(174,174,174,1) 13%, rgba(218,218,218,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aeaeae', endColorstr='#dadada', GradientType=0 );
+	
+}
+
+
+/*======================================================================
+TITRE
+*/
+h1,h2{
+	font-family: 'Walter Turncoat', cursive;
+	color: #6A919E;
+	margin: 5px 0;
+}
+h1{
+	font-size:2em;
+}
+h2{
+	font-size:1.2em;
+	border-bottom: 2px solid #6A919E;
+	border-radius: 2px;
+	margin: 0 5px 0 5px;
+}
+h3{
+	font-size:1.1em;
+}
+hr{
+}
+
+/*======================================================================
+MENU
+*/
+
+header{
+	background-color: #AEAEAE;
+	text-align:center;
+	position: fixed;
+	top:0;
+	left:0;
+	width:100%;
+	min-height:135px;
+    overflow: hidden;
+}
+
+header img{
+	width: 80px;
+	margin: 10px 0;
+}
+
+nav{
+	height: 135px;
+	position:relative;
+	/* background-color:grey; */
+}
+
+/* .test{ */
+	/* width: 100%; */
+	/* height:65px; */
+/* } */
+/* .stick { */
+	/* transition:0.3s; */
+/* } */
+/* .sticky { */
+	/* position: fixed; */
+	/* top: 0; */
+	/* left: 0; */
+	/* z-index: 99999 !important; */
+	/* background: rgba(0, 0, 0, .39); */
+/* } */
+
+
+a{
+	color:inherit;
+	text-decoration:inherit;
+}
+
+
+nav ul{
+	list-style-type:none;
+	display:block;
+	margin: auto;
+	height: 65px;
+	float:right;
+	/* position:absolute;  */
+	/* bottom:10px; */
+	
+}
+
+li.float a{
+	text-align:center;
+	display:block;
+	width: 130px;	
+	line-height:60px;
+	font-size: 1.2em;
+	margin-right:10px;
+	
+	-webkit-box-shadow: 3px 3px 3px 3px rgba(0,0,0,0.5);
+	-moz-box-shadow: 3px 3px 3px 3px rgba(0,0,0,0.5);
+	box-shadow: 3px 3px 3px 3px rgba(0,0,0,0.5);
+	
+}
+
+/*======================================================================
+SECTION
+*/
+
+.conteneur{
+	width: 960px;
+	margin:auto;
+	
+}
+
+section{
+	min-height:200px;
+	margin-bottom:10px;
+}
+section .conteneur{
+	background-color: #fff;
+	padding:10px;
+	
+	-webkit-box-shadow: 3px 3px 3px 3px rgba(0,0,0,0.5);
+	-moz-box-shadow: 3px 3px 3px 3px rgba(0,0,0,0.5);
+	box-shadow: 3px 3px 3px 3px rgba(0,0,0,0.5);
+}
+footer{
+	min-height:60px;
+}
+.block40{
+	width:40%;
+}
+.block60{
+	width:60%;
+}
+.block70{
+	width:70%;
+}
+.block30{
+	width:30%;
+}
+.block50{
+	width:50%;
+}
+.block25{
+	width:25%;
+}
+
+/*=====================================
+COULEURS
+*/
+
+
+
+
+/*=====================================
+JAUGE
+*/
+
+#jauge_comp {
+	padding:0;
+}
+#jauge_comp li{
+	list-style-type:none;
+}
+.jauge_fond{
+	background-color:#e1e1e1;
+	height:10px;
+	width:80%;
+}
+.jauge{	height:80%;position:relative; top:1px; border-radius:1px;}
+
+/*=============================================
+IMG
+*/
+.profil img{
+	width: 20%;
+	border-radius:50%;
+	float: right;
+	margin: 0 60px 10px 40px;
+}
+
+/*=============================================
+PARAGRAPHES
+*/
+.profil p{
+}
+
+.ico_lang{
+	width: 60%;
+}
+.ico_lang img{
+	/* margin: 40px; */
+	width: 70%;
+}
+
+
+/*=============================================
+CONTACTS
+*/
+label, input, textarea{
+	float:left;
+	display: inline-block;
+	width:50%;
+	margin-bottom:5px;
+}
+
+textarea{
+	height:80px;
+}
+input[type=submit], input[type=reset]{
+	border-radius:5px;
+	width:25%;
+	margin-top:10px;
+	margin-left: 50px;
+}
+
+iframe{
+	padding-left:20px;
+	border:0;
+	width:100%;
+	height:200px;
+}
+
+.float{
+	float:left;
+}
+
+.row:after{
+	content:'';
+	display:block;
+	clear:both;
+}
+
+.clear{
+	clear:both;
+}
+.ancre{
+	position:relative;
+	bottom:135px;
+}
+
+

@@ -1,0 +1,15 @@
+.taillefixe{
+	width:1000px;
+	border: 2px solid blue;
+}
+.taillevariable{
+	width:80%;
+	border: 2px solid red;
+}
+.pourcent{
+	width:20%;
+	border: 2px solid green;
+}
+img{
+	width:100%;
+}

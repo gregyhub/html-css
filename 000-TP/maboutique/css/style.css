@@ -1,0 +1,239 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+body{
+	width:100%;
+	background: url("../images/fond.png") #FFFFFF repeat-x;
+	font-family: arial;
+	margin-top:5px;
+}
+
+/*======================================
+======= GLOBAL / STRUCTURE =============
+=======================================*/
+#container{
+	width:1000px;
+	margin: auto;
+	background-color:#FFF;
+	-webkit-box-shadow: 0px 0px 5px 3px rgba(149,149,149,1);
+	-moz-box-shadow: 0px 0px 5px 3px rgba(149,149,149,1);
+	box-shadow: 0px 0px 5px 3px rgba(149,149,149,1);
+}
+
+header:after,nav:after,main:after,footer:after,.row:after{
+	content:'';
+	display:block;
+	clear:both;
+}
+.floatl{
+	float:left;
+}
+.floatr{
+	float:right;
+}
+.clear{
+	clear:both;
+}
+
+a{
+	text-decoration:none;
+	color:#FFF
+}
+li{
+	list-style:none;
+}
+/*======================================
+======= ENTETE DE PAGE =================
+=======================================*/
+/* Titre ete LOGO */
+header{
+	height:80px;
+	font-style:italic;
+}
+header div{
+	width:37%;
+}
+
+.logo p{
+	color:#F583E3;
+	font-size:0.8em;
+	text-align:right;
+	margin-right:90px;
+	margin-top:10px;
+}
+h1{
+	font-size:2.5em;
+	vertical-align:-5px;
+}
+h1 img{
+	margin-right: 20px;
+	padding:5px;
+}
+
+
+/* AIDE */
+h2{
+	color:#3FC9FA;
+	font-weight:normal;
+}
+.aide{
+	padding-left:30px;
+	font-style:normal;
+}
+.aide p{
+	color:#B3B3B3;
+}
+.aide span{
+	color:#3FC9FA;
+	position:relative;
+	left:-130px;
+	top:-5px;
+}
+.horaires{
+	font-size:0.8em;
+	font-style:italic;
+}
+
+/* PANIER */
+.panier li{
+	width:250px;
+	margin-bottom:1px;
+	background-color:#3FC9FA;
+	text-align:center;
+	font-size: 0.9em;
+}
+.article{
+	height:50px;
+}
+.article a {
+	line-height:50px;
+}
+/*======================================
+======= NAVIGATION / MENU ==============
+=======================================*/
+nav{
+	height:30px;
+	background-color:#3FC9FA;
+	color:#FFF;
+}
+nav ul{
+	width:100%;
+}
+nav ul li{
+}
+nav a{
+	display:block;
+	font-size:0.9em;
+	height:30px;
+	float:left;
+	line-height:30px;
+	/* width:16.666%; */
+	width:160px;
+	text-align:center;}
+.activ, nav a:hover{
+	background-color:#F583E3;
+}
+
+/*======================================
+======= CORPS DE PAGE===================
+=======================================*/
+main{
+	font-size:12px;
+}
+main h3{
+	color:#3FC9FA;
+	margin-bottom:15px;
+}
+
+.block215,.block570{
+	height:104px;
+	margin-top:10px;
+	margin-bottom:20px;
+	padding:0 20px;
+	line-height:15px;
+
+}
+.block215{
+	width:215px;
+}
+.block570{
+	width:570px;
+	border-left:1px solid grey;
+	border-right:1px solid grey;
+}
+
+img[title=paiement]{
+	margin-top:20px;
+}
+
+.servimg{
+	width:33px;
+	height:33px;
+	margin-right:15px;
+	margin-bottom:10px;
+}
+.servtxt{
+	line-height:33px;
+	width:125px;
+	height:33px;
+	margin-bottom:10px;
+}
+
+
+
+.blockplus{
+	box-sizing:content-box;
+	width:300px;
+	height:150px;
+	border-radius:10px;
+	margin:10px 10px 25px 15px;
+	-webkit-box-shadow: 0px 0px 5px 2px rgba(175,175,175,1);
+	-moz-box-shadow: 0px 0px 5px 2px rgba(175,175,175,1);
+	box-shadow: 0px 0px 5px 2px rgba(175,175,175,1);
+}
+.blockplus h4{
+	text-align:center;
+	font-size:16px;
+	padding: 3px 0;
+	border-radius:10px 10px 0 0;
+	background-color:#D9D9D9;
+}
+.blockplus img{
+	margin:10px 20px 10px 10px;
+}
+.blockplus p{
+	margin:10px 15px 0px 10px;
+	font-size:13px;
+	line-height:16px;
+}
+.imgplus{
+	width:20%;
+}
+.txtplus{
+	width:80%;
+}
+p.test{
+	text-align:right;
+	margin-top:0;
+	margin-right:30px;
+}
+.test a{
+	color:#3FC9FA;
+	text-decoration:underline;
+}
+/*======================================
+======= PIED DE PAGE====================
+=======================================*/
+footer{
+	height:35px;
+	background-color:#3FC9FA;
+	color:#FFF;
+}
+footer p{
+	font-size: 0.8em;
+	line-height:35px;
+	text-align:center;
+}

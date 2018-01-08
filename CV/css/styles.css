@@ -1,0 +1,269 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	margin-top:135px;
+	/* background-color: #DADADA; */
+	font-size: 1em;
+	font-family: 'Signika', sans-serif;
+	color:#818080;
+	
+	background: rgba(174,174,174,1);
+	background: -moz-linear-gradient(top, rgba(174,174,174,1) 0%, rgba(174,174,174,1) 13%, rgba(218,218,218,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(174,174,174,1)), color-stop(13%, rgba(174,174,174,1)), color-stop(100%, rgba(218,218,218,1)));
+	background: -webkit-linear-gradient(top, rgba(174,174,174,1) 0%, rgba(174,174,174,1) 13%, rgba(218,218,218,1) 100%);
+	background: -o-linear-gradient(top, rgba(174,174,174,1) 0%, rgba(174,174,174,1) 13%, rgba(218,218,218,1) 100%);
+	background: -ms-linear-gradient(top, rgba(174,174,174,1) 0%, rgba(174,174,174,1) 13%, rgba(218,218,218,1) 100%);
+	background: linear-gradient(to bottom, rgba(174,174,174,1) 0%, rgba(174,174,174,1) 13%, rgba(218,218,218,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aeaeae', endColorstr='#dadada', GradientType=0 );
+		
+}
+
+
+/*======================================================================
+TITRE
+*/
+h1,h2{
+	font-family: 'Walter Turncoat', cursive;
+	color: #6A919E;
+	margin: 5px 0;
+}
+h1{
+	font-size:2em;
+}
+h2{
+	font-size:1.2em;
+	border-bottom: 2px solid #6A919E;
+	border-radius: 2px;
+	margin: 0 5px 10px 5px;
+}
+h3{
+	font-size:1.1em;
+}
+hr{
+}
+
+/*======================================================================
+MENU
+*/
+
+header{
+	z-index:1;
+	background-color: #AEAEAE;
+	text-align:center;
+	position: fixed;
+	top:-114px;
+	left:0;
+	width:100%;
+	min-height:135px;
+    overflow: hidden;
+}
+header img{
+	width: 80px;
+	margin: 10px 0;
+}
+
+nav{
+	height: 135px;
+	position:relative;
+}
+
+a{
+	color:inherit;
+	text-decoration:inherit;
+}
+
+nav ul{
+	list-style-type:none;
+	display:block;
+	margin: auto;
+	height: 65px;
+}
+header li{
+	float:left;
+} 
+header li a{
+	text-align:center;
+	display:block;
+	width: 130px;	
+	line-height:60px;
+	font-size: 1.2em;
+	margin-right:10px;
+	
+	-webkit-box-shadow: 3px 3px 3px 3px rgba(0,0,0,0.5);
+	-moz-box-shadow: 3px 3px 3px 3px rgba(0,0,0,0.5);
+	box-shadow: 3px 3px 3px 3px rgba(0,0,0,0.5);
+	
+}
+
+/*======================================================================
+SECTION
+*/
+
+.conteneur{
+	width: 100%;
+	margin:auto;
+}
+
+section{
+	min-height:200px;
+	margin-bottom:10px;
+}
+section .conteneur{
+	background-color: #fff;
+	padding:10px;
+	
+	-webkit-box-shadow: 3px 3px 3px 3px rgba(0,0,0,0.5);
+	-moz-box-shadow: 3px 3px 3px 3px rgba(0,0,0,0.5);
+	box-shadow: 3px 3px 3px 3px rgba(0,0,0,0.5);
+}
+footer{
+	min-height:60px;
+}
+
+
+/*=====================================
+COULEURS
+*/
+
+
+
+
+/*=====================================
+JAUGE
+*/
+
+#jauge_comp {
+	padding:0;
+}
+#jauge_comp li{
+	list-style-type:none;
+}
+.jauge_fond{
+	background-color:#e1e1e1;
+	height:10px;
+	width:80%;
+}
+.jauge{	height:80%;position:relative; top:1px; border-radius:1px;}
+
+/*=============================================
+IMG
+*/
+.avatar{
+	width: 100px;
+	border-radius:50%;
+}
+
+
+.ico_lang img{
+	width:100%; 
+}
+
+
+/*=============================================
+CONTACTS
+*/
+label, input, textarea{
+	float:left;
+	display: inline-block;
+	width:50%;
+	margin-bottom:5px;
+}
+
+textarea{
+	height:80px;
+}
+input[type=submit], input[type=reset]{
+	border-radius:5px;
+	width:25%;
+	margin-top:10px;
+	margin-left: 50px;
+}
+
+iframe{
+	padding-left:20px;
+	border:0;
+	width:100%;
+	height:200px;
+}
+
+.floatr{
+	float:right;
+}
+.floatl{
+	float:left;
+}
+
+.row:after{
+	content:'';
+	display:block;
+	clear:both;
+}
+.clear{
+	clear:both;
+}
+.ancre{
+	position:relative;
+	bottom:135px;
+}
+/*==========================================================
+======Grille de 12=====================================
+===========================================================*/
+
+.col1,.col2,.col3,.col4,.col5,.col6,.col7,.col8,.col9,.col10,.col11,.col12{
+	width:100%;
+	float:left;
+}
+
+/*pour que les image languages se collent 2 par 2 en mode mobile*/
+.ico_lang .col3{
+	width:25%;
+}
+
+.colmarge1,.colmarge2,.colmarge3,.colmarge4,.colmarge5,.colmarge6,.colmarge7,.colmarge8,.colmarge9,.colmarge10,.colmarge11{
+	margin:0;
+}
+
+@media(min-width:768px){
+
+	.conteneur{width: 750px;}
+	header{
+		top:0;
+	}
+
+}
+@media(min-width:992px){
+	.conteneur{width: 970px;}
+	
+	/*100% divisé par 12 élément = 8.33333 par zone.*/
+	.col1{float:left;width:8.33%;}
+	.col2{float:left;width:16.66%;}
+	.col3{float:left;width:25%;}
+	.col4{float:left;width:33.33%;}
+	.col5{float:left;width:41.66%;}
+	.col6{float:left;width:50%;}
+	.col7{float:left;width:58.33%;}
+	.col8{float:left;width:66.66%;}
+	.col9{float:left;width:75%;}
+	.col10{float:left;width:83.33%;}
+	.col11{float:left;width:91.66%;}
+	.col12{float:left;width:100%;}
+	
+/*je les redéfinit en mode tous aligné sur la meme ligne en mode desktop */	
+	.ico_lang .col3{
+		width:25%;
+	}
+
+	.colmarge1{margin-left:8.33%;}
+	.colmarge2{margin-left:16.66%;}
+	.colmarge3{margin-left:25%;}
+	.colmarge4{margin-left:33.33%;}
+	.colmarge5{margin-left:41.66%;}
+	.colmarge6{margin-left:50%;}
+	.colmarge7{margin-left:58.33%;}
+	.colmarge8{margin-left:66.66%;}
+	.colmarge9{margin-left:75%;}
+	.colmarge10{margin-left:83.33%;}
+	.colmarge11{margin-left:91.66%;}
+}
